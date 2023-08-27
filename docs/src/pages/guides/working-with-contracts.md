@@ -371,7 +371,7 @@ const prefixedSecond = await example.methods
   .getSecondElementWithPrefix({
     // Arguments have the same type as described in ABI,
     // but merged into one object by `name`
-    prefix: : 'foo',
+    prefix: 'foo',
   })
   .call({
     // NOTE: It will request the state itself if it is not specified

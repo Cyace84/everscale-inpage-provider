@@ -72,10 +72,11 @@ const deployParams = {
 
 // Get the expected address of the contract
 const expectedAddress = await provider.getExpectedAddress(
+  Abi,
   deployParams,
 );
 
-console.log('Expected address:', expectedAddress);
+console.log('Expected address:', JSON.stringify(expectedAddress));
 ```
 
 <GetExpectedAddressComponent />
